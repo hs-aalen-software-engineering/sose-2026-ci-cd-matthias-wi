@@ -5,6 +5,7 @@ from dash import Dash, Input, Output, dcc, html
 from road_profile_viewer.geometry import find_intersection
 from road_profile_viewer.road import generate_road_profile
 
+
 def create_dash_app() -> Dash:
     """
     Create and configure the Dash application.

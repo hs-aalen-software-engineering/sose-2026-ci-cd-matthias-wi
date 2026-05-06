@@ -1,7 +1,6 @@
 import numpy as np
-import plotly.graph_objects as go
-from dash import Dash, Input, Output, dcc, html
 from numpy.typing import NDArray
+
 
 def generate_road_profile(num_points: int = 100, x_max: float = 80) -> tuple[NDArray[np.float64], NDArray[np.float64]]:
     """
